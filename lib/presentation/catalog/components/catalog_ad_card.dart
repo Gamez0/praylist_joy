@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:praylist_joy/presentation/catalog/components/circle_indicator.dart';
 
 class CatalogAdCard extends StatefulWidget {
+
+  const CatalogAdCard({Key key}) : super(key: key);
+
   @override
   _CatalogAdCardState createState() => _CatalogAdCardState();
 }

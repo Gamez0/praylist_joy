@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CatalogAccountCard extends StatelessWidget {
+  const CatalogAccountCard({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Padding(
